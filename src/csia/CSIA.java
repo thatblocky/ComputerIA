@@ -11,7 +11,8 @@ public class CSIA {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hi");
+        MainLogin obj = new MainLogin();
+        obj.setVisible(true);
     }
     
 }

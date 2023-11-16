@@ -1,3 +1,5 @@
+package csia;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -100,15 +102,19 @@ public class MainLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void client_login_clicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_client_login_clicked
-        // TODO add your handling code here:
+        this.dispose();
+        
     }//GEN-LAST:event_client_login_clicked
 
     private void trainer_login_clicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_trainer_login_clicked
         // TODO add your handling code here:
+        this.dispose();
+        TrainerLogin obj = new TrainerLogin();
+        obj.setVisible(true);
     }//GEN-LAST:event_trainer_login_clicked
 
     /**
