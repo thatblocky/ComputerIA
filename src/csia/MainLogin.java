@@ -107,7 +107,8 @@ public class MainLogin extends javax.swing.JFrame {
 
     private void client_login_clicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_client_login_clicked
         this.dispose();
-        
+        ClientLogin obj = new ClientLogin();
+        obj.setVisible(true);
     }//GEN-LAST:event_client_login_clicked
 
     private void trainer_login_clicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_trainer_login_clicked
